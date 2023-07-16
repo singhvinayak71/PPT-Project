@@ -1,4 +1,4 @@
-var modal = document.getElementById("myModal");
+const modal = document.getElementById("myModal");
 
 function openModal() {
   modal.style.display = "block";
