@@ -1,0 +1,21 @@
+Q.1 What are hooks in react? how to identify hooks?
+
+Ans. React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects. React provides a bunch of standard in-built hooks: useState : To manage states.
+
+simply we can import "useState" and create our hooks.
+
+hook example - const [age, setAge] = useState(42);
+
+
+Q.2 Why use Express Over NodeJS ?
+Ans. Express. js offers simplicity, flexibility, efficiency, minimalism, and scalability to the programmers. It also has the advantage of powerful performance as it is a framework of Node. js.
+
+
+Q.3 What are REST API ?
+
+Ans. An API, or application programming interface, is a set of rules that define how applications or devices can connect to and communicate with each other. A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style.
+One of the key advantages of REST APIs is that they provide a great deal of flexibility. Data is not tied to resources or methods, so REST can handle multiple types of calls, return different data formats and even change structurally with the correct implementation of hypermedia.
+
+Q.4 What is the use of MongoDB?
+
+Ans. MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas. As a document database, MongoDB makes it easy for developers to store structured or unstructured data. It uses a JSON-like format to store documents.
