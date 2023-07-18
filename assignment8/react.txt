@@ -1,0 +1,76 @@
+Q.1  Whats React and its pros and cons?
+Ans. Today, ReactJS is the highly used open-source JavaScript Library. It helps in creating impressive web apps that require minimal effort and coding. The main objective of ReactJS is to develop User Interfaces (UI) that improves the speed of the apps. There are important pros and cons of ReactJS given as following:
+
+  Advantage of ReactJS
+
+  1. Easy to Learn and USe
+  2. Creating Dynamic Web Applications Becomes Easier
+  3. Reusable Components
+  4. Performance Enhancement
+  5. The Support of Handy Tools
+  6. The Benefit of Having JavaScript Library
+
+    Disadvantage of ReactJS
+
+    1. The high pace of development
+    2. View Part
+    3. JSX as a barrier
+
+
+Q.2 What do you understand by Virtual Dom?
+Ans. DOM and it has all the properties that DOM has. But the main difference is Whenever a code runs JavaScript Framework updates the whole DOM at once which gives a slow performance. whereas virtual DOM updates only the modified part of the DOM. Let’s understand clearly:
+
+When you run a code, the web page is divided into different modules. So, virtual DOM compares it with DOM and checks if there is any difference. If it finds a difference then DOM updates only the modified part and the other part remains the same. 
+
+
+Q.3 Difference between Virtual Dom vs Real Dom
+Ans. DOM-  is a Document Object Model which represents the content of XML or HTML document as a tree structure so that the programs can be read, access, and change in the document structure, style, and content. 
+Virtual DOM - The name itself says that it is a virtually created DOM. Virtual DOM is exactly like DOM and it has all the properties that DOM has. But the main difference is Whenever a code runs JavaScript Framework updates the whole DOM at once which gives a slow performance. whereas virtual DOM updates only the modified part of the DOM.
+
+
+Q.4 Whats component? Types of component.
+Ans. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components, 
+
+
+Q.5 Difference between class & function based component.
+Ans. functional componant- Functional components are some of the more common components that will come across while working in React. These are simply JavaScript functions. We can create a functional component to React by writing a JavaScript function.
+
+class componant - This is the bread and butter of most modern web apps built in ReactJS. These components are simple classes (made up of multiple functions that add functionality to the application).
+
+
+
+Q.6 Explain react component life cycle.
+
+Ans. Lifecycle of Components
+Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+
+The three phases are: Mounting, Updating, and Unmounting.
+
+--------- Mounting phase ----
+ In this phase, the instance of a component is created and inserted into the DOM. It consists of the following methods
+
+1.  componentWillMount()----
+
+This is invoked immediately before a component gets rendered into the DOM. In the case, when you call setState() inside this method, the component will not re-render.
+
+2. componentDidMount()----
+
+This is invoked immediately after a component gets rendered and placed on the DOM. Now, you can do any DOM querying operations.
+
+3.  render()------
+
+This method is defined in each and every component. It is responsible for returning a single root HTML node element. If you don't want to render anything, you can return a null or false value.
+
+-------------Updating Phase-----------
+It is the next phase of the lifecycle of a react component. Here, we get new Props and change State. This phase also allows to handle user interaction and provide communication with the components hierarchy. The main aim of this phase is to ensure that the component is displaying the latest version of itself. Unlike the Birth or Death phase, this phase repeats again and again.
+
+------------Unmounting Phase---------
+It is the final phase of the react component lifecycle. It is called when a component instance is destroyed and unmounted from the DOM. This phase contains only one method and is given below.
+componentWillUnmount()------
+This method is invoked immediately before a component is destroyed and unmounted permanently. It performs any necessary cleanup related task such as invalidating timers, event listener, canceling network requests, or cleaning up DOM elements. If a component instance is unmounted, you cannot mount it again.
+
+
+
+
+Q.7 Explain Prop Drilling in React & Ways to avoid it.
+Ans. Prop drilling occurs when a parent component passes data down to its children and then those children pass the same data down to their own children. This process can continue indefinitely. At the end, it's a long chain of component dependencies that can be difficult to manage and maintain.
